@@ -40,3 +40,8 @@ Respond in simple British English, as if you were talking to an early teenager.
 - KISS: Prefer simplicity over complexity in design decisions
 - YAGNI: Implement current requirements only, avoid speculation
 
+## Additional Instructions
+
+Refer to additional instruction files depending on the language and framework used by the project:
+
+- Python: @~/.claude/instructions/python.md
