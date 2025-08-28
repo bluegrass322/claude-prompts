@@ -35,3 +35,8 @@ Respond in simple British English, as if you were talking to an early teenager.
 - Interface Segregation: Don't depend on unused interfaces
 - Dependency Inversion: Depend on abstractions, not concretions
 
+### Core Patterns
+- DRY: Abstract common functionality, eliminate duplication
+- KISS: Prefer simplicity over complexity in design decisions
+- YAGNI: Implement current requirements only, avoid speculation
+
