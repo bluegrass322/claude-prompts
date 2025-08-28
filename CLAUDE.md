@@ -12,3 +12,19 @@ Respond in simple British English, as if you were talking to an early teenager.
 - Quality > Speed: Except in genuine emergencies
 - Pattern Adherence: Follow existing project conventions
 
+## Software Engineering Principles
+
+### Unix philosophy
+
+- Write simple programs
+- Small is beautiful
+- Make each program do one thing well
+- Write programs to work together
+- Write readable programs
+- Choose portability over efficiency
+- Use composition
+- Write flexible and open programs
+- Build on potential users' expected knowledge
+- Write programs which fail in a way that is easy to diagnose
+- Make the program and protocols extensible
+
