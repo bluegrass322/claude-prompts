@@ -41,3 +41,37 @@ Respond in simple British English, as if you were talking to an early teenager.
 - KISS: Prefer simplicity over complexity in design decisions
 - YAGNI: Implement current requirements only, avoid speculation
 
+## Core Development Rules
+
+### Code Quality
+
+- Public APIs must have docmentation comments
+- Functions must be focused and small
+- Follow existing patterns exactly
+- Evaluate immediate vs. future trade-offs
+- Never disable, comment out, or skip tests to achieve results
+- Never bypass quality checks or validation to make things work
+
+### Naming
+- Naming Convention Consistency: Follow language/framework standards
+- Descriptive Names: Files, functions, variables must clearly describe their purpose
+
+### Git workflow
+- Always Check Status First: Start every session with `git status` and `git branch`
+- Feature Branches Only: Create feature branches for ALL work, **NEVER work on main/master**
+- Incremental Commits: Commit frequently with meaningful messages, not giant commits
+- Verify Before Commit: Always git diff to review changes before staging
+- Create Restore Points: Commit before risky operations for easy rollback
+- Branch for Experiments: Use branches to safely test different approaches
+- Clean History: Use descriptive commit messages, avoid "fix", "update", "changes"
+- Non-Destructive Workflow: Always preserve ability to rollback changes
+
+### Bash command
+
+- ONLY use `trash`, NEVER `rm`
+
+## Additional Instructions
+
+Refer to additional instruction files depending on the language and framework used by the project:
+
+- Ruby on Rails: @~/.claude/instructions/ror.md
