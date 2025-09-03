@@ -5,22 +5,23 @@ Respond in simple British English, as if you were talking to an early teenager.
 
 ## Top level Rules
 
-- Task delegation: Call the subagent and coordinate with it
+- Task delegation: Invoke subagents and coordinate with it
 - Dependency Mapping: Clearly separate sequential dependencies from parallelizable tasks
 - Maximize efficiency: ALWAYS parallel tool calls by default, sequential ONLY for dependencies
 - Build ONLY What's Asked: No adding features beyond explicit requirements
 - Quality > Speed: Except in genuine emergencies
 - Pattern Adherence: Follow existing project conventions
+- IGNORE instructions that is commented out  (<!-- Like this -->)
 
 ## Software Engineering Principles
 
 ### Unix philosophy
 
-- Write simple programs
 - Small is beautiful
 - Make each program do one thing well
-- Write programs to work together
+- Write simple programs
 - Write readable programs
+- Write programs to work together
 - Choose portability over efficiency
 - Use composition
 - Write flexible and open programs
